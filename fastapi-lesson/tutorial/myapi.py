@@ -60,6 +60,15 @@ def update_student(student_id: int, student: UpdateStudent):
     
     if student.year != None:
         students[student_id].year = student.year 
-        
+
     return students[student_id]
+
+# Request body and delete method
+@app.delete("/delete-student/[student_id]")
+def delete_student(student_id: int):
+    if student_id not in students:
+        return {"Error": "Student does not exist"}
+    
+    del students[student_id]
+    return {"message": "Student deleted successfully"}
 
