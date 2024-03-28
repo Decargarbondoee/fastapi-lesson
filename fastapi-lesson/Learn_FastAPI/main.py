@@ -48,3 +48,4 @@ def create_blog(request: Blog):
 #Model & Table
 #Store Blog to Database
 #Get Blog From Database
+#Exception & Status code
