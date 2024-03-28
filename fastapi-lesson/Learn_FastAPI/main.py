@@ -50,3 +50,4 @@ def create_blog(request: Blog):
 #Get Blog From Database
 #Exception & Status code
 #Delete A Blog
+#Update a Blog
