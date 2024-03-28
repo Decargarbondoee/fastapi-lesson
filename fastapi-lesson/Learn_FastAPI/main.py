@@ -46,3 +46,4 @@ def create_blog(request: Blog):
 #Pydantic Schema
 #DataBase Connection
 #Model & Table
+#Store Blog to Database
