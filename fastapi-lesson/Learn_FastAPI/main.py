@@ -47,3 +47,4 @@ def create_blog(request: Blog):
 #DataBase Connection
 #Model & Table
 #Store Blog to Database
+#Get Blog From Database
