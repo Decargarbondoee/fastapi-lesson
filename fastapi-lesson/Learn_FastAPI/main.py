@@ -51,3 +51,4 @@ def create_blog(request: Blog):
 #Exception & Status code
 #Delete A Blog
 #Update a Blog
+#Create User
