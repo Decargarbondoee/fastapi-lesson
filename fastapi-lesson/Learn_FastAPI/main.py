@@ -52,3 +52,4 @@ def create_blog(request: Blog):
 #Delete A Blog
 #Update a Blog
 #Create User
+#Hash the Password
