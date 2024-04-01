@@ -54,3 +54,4 @@ def create_blog(request: Blog):
 #Create User
 #Hash the Password
 #Show a User
+#Using Docs Tags
