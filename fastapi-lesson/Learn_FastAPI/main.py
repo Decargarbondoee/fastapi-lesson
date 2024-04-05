@@ -56,3 +56,4 @@ def create_blog(request: Blog):
 #Show a User
 #Using Docs Tags
 #Relationship
+#API Router
